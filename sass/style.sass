@@ -1,0 +1,403 @@
+.promo
+    min-height: 650px
+    background: url(../img/backgrounds/bg1.jpg) center (center / cover) no-repeat
+    padding: 21px 0 93px 0        
+    &_header
+        display: flex
+        justify-content: space-between
+        align-items: center
+        .official
+            font-size: 12px
+            font-weight: 500
+            text-align: center
+            color: #ffffff
+            span
+                font-size: 18px
+                font-weight: bold
+                text-align: center
+                color: #ffffff
+        .call_block
+            font-size: 18px
+            font-weight: bold
+            text-align: right
+            color: #ffffff
+            a
+                text-decoration: none
+                display: block
+                color: white
+            .btn
+                width: 150px
+                height: 30px
+                border-radius: 5px
+                background-color: #c70101
+                font-size: 12px
+                font-weight: 500
+                text-align: center
+                color: #ffffff
+                border: 0
+                padding: 0
+                margin-top: 8px
+    &_subheader
+        margin-top: 91px
+        h1
+            font-size: 42px
+            font-weight: bold
+            text-align: right
+            color: #ffffff
+            margin-bottom: 0
+        h2
+            font-size: 24px
+            font-weight: 500
+            text-align: right
+            color: #ffffff
+            margin-bottom: 0
+    &_icons
+        display: flex
+        justify-content: flex-end
+        margin-top: 68px
+        img
+            margin-left: 70px
+            &:first-child
+                margin-left: 0
+.btn_wrapper
+    display: flex
+    justify-content: flex-end  
+    .main_btn
+        width: 300px
+        height: 50px
+        border-radius: 5px
+        background-color: #c70101
+        font-size: 16px
+        font-weight: 500
+        text-align: center
+        color: #ffffff
+        border: none
+        margin-top: 68px
+
+.catalog
+    margin-top: 18px
+    font-size: 16px
+    font-weight: 500
+    text-align: right
+    color: #ffffff
+    a
+        font-size: 16px
+        font-weight: 500
+        text-align: right
+        color: #ffffff
+        text-decoration: underline
+
+.advantages
+    min-height: 470px
+    padding: 70px 0 78px 0
+    background-color: #f6f6f6
+    &_header
+        font-size: 30px
+        font-weight: bold
+        text-align: center
+        color: #0d0d0d
+    &_main
+        display: flex
+        justify-content: space-around
+        align-items: top
+        margin-top: 65px
+        &_block
+            text-align: center
+            &_descr
+                font-size: 14px
+                font-weight: 300
+                font-stretch: normal
+                font-style: normal
+                line-height: normal
+                letter-spacing: normal
+                text-align: center
+                color: #0d0d0d
+                width: 240px
+                span
+                    color: red
+                    text-decoration: underline
+                h3
+                    font-size: 18px
+                    font-weight: bold
+                    text-align: center
+                    color: #0d0d0d
+
+.consultation
+    min-height: 680px
+    padding: 100px 0 92px 0
+    background: url(../img/backgrounds/bg2.jpg) center (center / cover) no-repeat
+    &_header
+        h2
+            font-size: 36px
+            font-weight: bold
+            text-align: left
+            color: #ffffff
+    &_subheader
+        margin-top: 80px
+        font-size: 20px
+        font-weight: 500
+        text-align: left
+        color: #ffffff
+
+    form
+        display: flex
+        flex-direction: column
+        margin-top: 36px
+        width: 300px
+            
+        input
+            border-radius: 5px
+            height: 50px
+            background-color: #ffffff
+            border: none
+            margin-bottom: 15px
+            padding: 20px
+
+        button
+            height: 55px
+            border-radius: 5px
+            background-color: #c70101
+            font-size: 16px
+            font-weight: 500
+            text-align: center
+            color: #ffffff
+            text-transform: uppercse
+            border: none
+            margin-top: 5px
+                
+.carousel
+    padding: 81px 0
+    &_inner
+        width: 750px
+        margin: 0 auto
+        position: relative
+        .slick-next
+            border: none
+            background-color: #fff
+            position: absolute
+            top: 50%
+            transform: translateY (-50%)
+            right: -70px
+            img
+                width: 30px
+                height: 50px
+        .slick-prev
+            border: none
+            background-color: #fff
+            position: absolute
+            top: 50%
+            transform: translateY (-50%)
+            left: -70px
+              
+.catalogue
+    padding-bottom: 100px
+    &_tittle
+        font-size: 30px
+        font-weight: bold
+        text-align: center
+        color: #0d0d0d
+    &_tabs
+        margin-top: 70px
+        list-style-type: none
+        display: flex
+        justify-content: center
+        align-items: center
+        margin-bottom: 0
+        padding-left: 0
+    &_tab
+        width: 220px
+        height: 50px
+        border: solid 2px #d0d0d0
+        color: #d0d0d0
+        font-size: 18px
+        font-weight: 500
+        text-align: center
+        color: #6b6b6b
+        line-height: 48px
+        text-transform: uppercase
+        transform: skewX(-25deg)
+        margin: 0 5px
+        cursor: pointer
+        transition: 0.5s all
+        &:hover
+            box-shadow: 3px 3px 20px #c70101
+            border: none
+        div
+            transform: skewX(25deg)
+        &_active
+            width: 220px
+            height: 50px
+            background-color: #c70101
+            color: #ffffff
+            border: none
+    
+    &_content
+        margin-top: 60px
+        display: none
+        justify-content: space-around
+        flex-wrap: wrap
+        &_active
+            display: flex
+    &_item
+        width: 300px
+        min-height: 440px
+        border: solid 2px #e8e8e8
+        background-color: #ffffff
+        padding: 20px 20px 27px 20px
+        text-align: center
+        overflow: hidden
+        margin-bottom: 20px
+        &_img
+            display: block
+            margin: 0 auto
+            height: 200px
+            max-width: 100%
+        &_subtittle
+            font-size: 16px
+            font-weight: bold
+            text-align: center
+            color: #0d0d0d
+            text-align: center
+            margin-top: 20px
+        &_descr
+            margin-top: 16px
+            font-size: 14px
+            font-weight: 300
+            text-align: center
+            color: #0d0d0d
+        &_link
+            display: block
+            margin-top: 8px
+            font-size: 14px
+            font-weight: 500
+            text-align: center
+            color: #c70101
+            text-decoration: underline
+            text-transform: uppercase
+            &:hover
+                color: #c70101
+        hr
+            background-color: #e8e8e8
+            margin: 20px 0
+            border-bottom: none
+        &_footer
+            display: flex
+            justify-content: space-between
+            align-items: center
+        &_prices
+            .old_price
+                font-size: 14px
+                font-weight: 300
+                text-align: left
+                color: #555555
+                text-decoration: line-through
+            .new_price
+                font-size: 20px
+                font-weight: bold
+                text-align: left
+                color: #050505
+        &_btn
+            width: 131px
+            height: 40px
+            border-radius: 5px
+            background-color: #c70101
+            font-size: 14px
+            font-weight: 500
+            text-align: center
+            color: #ffffff
+            border: none
+        &_wrapper
+            display: flex
+            width: calc(200% + 40px)
+        &_content
+            width: 50%
+            margin-right: 0
+            transform: translateX(-100%)
+            transition: 0.5s all
+            &_active
+                transform: translateX(0%)
+                margin-right: 20px
+        &_list
+            width: 50%
+            margin-left: 20px
+            transform: translateX(0%)
+            padding-right: 20px
+            transition: 0.5s all
+            padding-left: 19px
+            margin-bottom: 0
+            list-style-type: none
+            position: relative
+            &_active
+                transform: translateX(-100%)
+                margin-left: 0
+            li
+                font-size: 14px
+                font-weight: 300
+                text-align: left
+                color: #555555
+                margin-bottom: 20px
+                position: relative
+                &::before
+                    content: ''
+                    position: absolute
+                    width: 5px
+                    height: 5px
+                    background-color: #c70101
+                    left: -14px
+                    top: 7px
+        &_back
+            position: absolute
+            bottom: 0
+            left: 50%
+            transform: translateX(calc(-50% - 19px))
+            display: block
+            color: #c70101
+            font-size: 14px
+            font-weight: 500
+            text-decoration: underline
+            text-transform: uppercase
+            &:hover
+                color: #c70101
+            &_active
+                transform: translateX(-100%)
+                margin-left: 0
+.reviews
+    min-height: 920px
+    hr
+        border-bottom: none
+        margin: 50px 0 50px 105px
+        width: 940px
+    &_header
+        margin-bottom: 70px
+        text-align: center
+        font-size: 30px
+        font-weight: bold
+        text-align: center
+        color: #0d0d0d
+    &_box
+        display: flex
+        justify-content: right
+        align-items: top
+    &_img
+        margin-right: 61px
+        height: 169px
+    &_name
+        font-size: 18px
+        font-weight: bold
+        text-align: left
+        color: #0d0d0d
+    &_maraphon
+        font-size: 14px
+        font-weight: 300
+        text-align: left
+        color: #646464
+        margin-bottom: 4px
+    &_words
+        font-size: 16px
+        font-weight: 300
+        text-align: left
+        color: #0d0d0d
+        
+
+    
+
